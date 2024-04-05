@@ -21,11 +21,11 @@
 > See **'Implementation'** the code for the method proposed in the paper. See **'policy-vs-sequence-optimization'** the implementation for the comparison between **Sequence-based Optimization** and **Policy-based Optimization** [1], [2].
 
 ## Prerequisite
-> You need to install CasADi (https://web.casadi.org/) for running both the Python code and MATLAB code. 
+> You need to install CasADi (https://web.casadi.org/) for running both the Python code and MATLAB code.   pip3 install casadi(casadi-3.6.5)
 
-> The optimization problem is solved using linear solver ma57 (https://licences.stfc.ac.uk/product/coin-hsl), but you can comment out the ma57 solver in the code if you do not manage to install the HSL solvers. Then the ipopt will use the default linear solver.
+> The optimization problem is solved using linear solver ma57 (https://licences.stfc.ac.uk/product/coin-hsl), but you can comment out the ma57 solver in the code if you do not manage to install the HSL solvers. Then the ipopt will use the default linear solver.  sudo apt-get install libmetis-dev(libmetis-dev (5.1.0.dfsg-5))
 
-> One key Python package is needed: **scikit-image 0.21.0** (https://pypi.org/project/scikit-image/).
+> One key Python package is needed: **scikit-image 0.21.0** (https://pypi.org/project/scikit-image/).  pip3 install scikit-image==0.21.0
 
 The following will show some supplementary materials to the paper. These case studies are mentioned in the corresponding places in the paper.
 
